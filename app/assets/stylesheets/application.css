@@ -1,0 +1,101 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+body {
+  font-family: Georgia, serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fafafa;
+  color: #222;
+}
+
+h1, h2 {
+  color: #1a1a2e;
+}
+
+a {
+  color: #4a90d9;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+strong {
+  display: block;
+  margin-bottom: .2rem;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border-radius: .2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+input, textarea {
+  border: 1px solid #ddd;
+  border-radius: .2rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #4a90d9;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: rgba(74, 144, 217, 0.95);
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  padding: .5rem 1rem;
+  margin-top: 1rem;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: rgba(217, 83, 79, 0.9);
+}
+
+.article-detail {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
